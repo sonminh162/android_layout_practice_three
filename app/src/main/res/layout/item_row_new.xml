@@ -25,6 +25,7 @@
             android:background="#ffffff">
 
             <ImageView
+                android:scaleType="fitXY"
                 android:id="@+id/img"
                 android:layout_width="match_parent"
                 android:layout_height="189dp"
@@ -79,7 +80,7 @@
                 android:layout_marginTop="7dp"
                 android:layout_marginEnd="44dp"
                 android:fontFamily="sans-serif"
-                android:lineSpacingExtra="-0.22sp"
+                android:lineSpacingExtra="7sp"
                 android:textColor="#8f8e94"
                 android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
