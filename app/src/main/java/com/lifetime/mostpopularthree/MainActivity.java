@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
                 "disrupt tousled, Portland keffiyeh aesthetic food","14 COMMENTS","254 LIKES"));
         arrayList.add(new Info(R.drawable.recycle_two,"Quick Brown Fox Jumps Over","HOBBY","16 MAY 2016","Synth polaroid bitters chillwave pickled. Vegan\n" +
                 "disrupt tousled, Portland keffiyeh aesthetic food","14 COMMENTS","254 LIKES"));
+        arrayList.add(new Info(R.drawable.tested_image,"Quick Brown Fox Jumps Over","HOBBY","16 MAY 2016","Synth polaroid bitters chillwave pickled. Vegan\n" +
+                "disrupt tousled, Portland keffiyeh aesthetic food","14 COMMENTS","254 LIKES"));
 
         Adapter adapter = new Adapter(arrayList,getApplicationContext());
         recyclerView.setAdapter(adapter);
